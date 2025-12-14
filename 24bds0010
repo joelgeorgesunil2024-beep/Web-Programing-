@@ -1,0 +1,69 @@
+<html>
+  <head>
+
+
+      </head>
+  
+  <body>
+    <h2> <i><u>COMPLETE THE FOLLOWING FORM</u></i></h2>
+<div>
+<label for="username">User Name</label>
+<input type="text" name="username" id="username" placeholder="username">
+</div>
+<div>
+<label for="password">Password</label>
+<input type="password" name="password" id="password" maxlength=“8” required>
+  </div>
+<div>
+<label for="dob">Date of Birth</label>
+<input type="date" name="dob" id="dob" min="01-01-1900">
+</div>
+  <div><label><b><u><br>Gender</br></u></b></label></div>
+            
+<div>
+<label for="gender">Male:</label>
+<input name="gender" id="gender" type="radio" value="Male" required>
+</div>
+<div>
+<label for="gender">Female:</label>
+<input name="gender" id="gender" type="radio" value="Female" required>
+</div>
+<div>
+<label for="gender"><del>Prefer not to say:</del></label>
+<input name="gender" id="gender" type="radio" value="Attack Helicopter" required>
+</div>
+  <div><label><b><u><br>Food Preference</br></u></b></label></div>
+<div>
+<label for="food">Veg:</label>
+<input name="food" id="food" type="checkbox" value="Veg" required>
+</div>
+<div>
+<label for="food">Non-Veg:</label>
+<input name="food" id="food" type="checkbox" value="Nonveg" required>
+</div>
+<div>
+<label for="food">Special:</label>
+<input name="food" id="food" type="checkbox" value="Special" required>
+</div>
+<div><label><b><u><br>Select State</br</u></b></label></div>
+<select name="state" id="state" placeholder="select state">
+<option value="sel">select state</option>
+<option value="kerala">Kerala</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Karnadaka">Karnadaka</option>
+<option value="Andra Pradesh">Andara Pradesh</option>
+</select>
+<div>
+  <label for="file"><br>Pancard</br></label>
+<input type="file" name="file" id="file">
+</div>
+<div><br><br>
+<button type="Submit">SUBMIT</button>
+</div>
+<div>
+  <br><br><br><br><br>
+<button type="Reset">HOME</button>
+</div>
+<li> <a href=“html/main.html” >HOME</a></li>
+</body>
+</html>
